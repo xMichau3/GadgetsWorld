@@ -44,7 +44,7 @@ nav a:hover {
     box-sizing: border-box;
 }
 
-/* Ustawienie dla szerokich ekranów (komputery) */
+/* Na komputerze 3 kolumny */
 .product {
     width: 30%; /* 3 produkty w jednym rzędzie na komputerze */
 }
@@ -56,7 +56,14 @@ nav a:hover {
     }
 }
 
-/* Stylowanie dla obrazków */
+/* Sekcja kontaktowa */
+#kontakt {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Dodatkowe style dla obrazków */
 .product img {
     width: 100%;
     height: auto;
@@ -79,11 +86,4 @@ nav a:hover {
 
 .product a:hover {
     text-decoration: underline;
-}
-
-/* Sekcja kontaktowa */
-#kontakt {
-    padding: 20px;
-    background-color: #fff;
-    text-align: center;
 }

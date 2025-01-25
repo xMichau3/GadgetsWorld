@@ -26,13 +26,12 @@ nav a:hover {
 /* Sekcja produktów */
 .products {
     display: flex;
-    flex-wrap: wrap; /* Zezwala na zawijanie elementów */
-    gap: 20px; /* Odstęp między produktami */
-    justify-content: space-between; /* Rozmieszcza produkty równo */
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
     margin: 20px;
-    width: 100%;
-    max-width: 1200px; /* Maksymalna szerokość kontenera */
-    margin-left: auto; 
+    max-width: 1200px;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -41,8 +40,8 @@ nav a:hover {
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 30%; /* Domyślnie 3 produkty w jednym rzędzie */
     box-sizing: border-box;
-    width: 30%; /* Szerokość produktu na komputerach */
 }
 
 /* Obrazki produktów */
@@ -57,7 +56,7 @@ nav a:hover {
 
 .product .price {
     font-size: 1.2em;
-    color: #2196F3; /* Kolor ceny */
+    color: #2196F3;
     margin: 10px 0;
 }
 
@@ -86,19 +85,7 @@ nav a:hover {
 
 /* Media Query dla małych ekranów (telefony) */
 @media (max-width: 767px) {
-    .products {
-        display: flex;
-        flex-wrap: wrap; /* Zezwala na zawijanie elementów */
-        gap: 15px; /* Mniejsza przerwa na telefonach */
-    }
     .product {
-        width: 48%; /* 2 produkty w jednym rzędzie na telefonach w pionie */
-    }
-}
-
-/* Dodatkowa Media Query dla poziomej orientacji telefonu */
-@media (orientation: landscape) {
-    .product {
-        width: 30%; /* 3 produkty w jednym rzędzie na telefonach w poziomie */
+        width: 48%; /* 2 produkty w jednym rzędzie */
     }
 }

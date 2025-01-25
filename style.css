@@ -41,7 +41,7 @@ nav a:hover {
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 30%;
+    width: 30%; /* 3 kolumny na każdym urządzeniu */
     box-sizing: border-box;
 }
 
@@ -77,16 +77,12 @@ nav a:hover {
     text-align: center;
 }
 
-/* Media Query dla większych ekranów (komputery stacjonarne) */
-@media (min-width: 768px) {
-    .product {
-        width: 30%; /* 3 produkty w jednym rzędzie */
-    }
+/* Zawsze 3 kolumny na każdym urządzeniu */
+.product {
+    width: 30%; /* 3 produkty w jednym rzędzie na każdym urządzeniu */
 }
 
-/* Media Query dla małych ekranów (telefony) */
+/* Usunięcie zmian dla telefonów */
 @media (max-width: 767px) {
-    .product {
-        width: 48%; /* 2 produkty w jednym rzędzie na telefonach */
-    }
+    /* Usunięcie media query dla telefonów, żeby zawsze były 3 kolumny */
 }

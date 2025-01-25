@@ -26,11 +26,12 @@ nav a:hover {
 /* Sekcja produktów */
 .products {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 kolumny, każda o równej szerokości */
+    grid-template-columns: repeat(3, 1fr); /* 3 kolumny o równej szerokości */
     gap: 20px; /* Odstęp między produktami */
     margin: 20px;
 }
 
+/* Styl dla pojedynczego produktu */
 .product {
     background-color: white;
     padding: 10px;

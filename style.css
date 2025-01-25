@@ -26,7 +26,7 @@ nav a:hover {
 /* Sekcja produktów */
 .products {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 kolumny o równej szerokości */
+    grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
     gap: 20px; /* Odstęp między produktami */
     margin: 20px;
     width: 100%; /* Ustawia szerokość kontenera na 100% */

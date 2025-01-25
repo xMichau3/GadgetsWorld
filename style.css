@@ -45,6 +45,7 @@ nav a:hover {
     width: 30%; /* Szerokość produktu na komputerach */
 }
 
+/* Obrazki produktów */
 .product img {
     width: 100%;
     height: auto;
@@ -88,8 +89,9 @@ nav a:hover {
     .products {
         display: flex;
         flex-wrap: wrap; /* Zezwala na zawijanie elementów */
+        gap: 15px; /* Mniejsza przerwa na telefonach */
     }
     .product {
-        width: 30%; /* 2 produkty w jednym rzędzie na telefonach */
+        width: 48%; /* 2 produkty w jednym rzędzie na telefonach */
     }
 }

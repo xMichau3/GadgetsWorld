@@ -6,18 +6,10 @@ body {
     background-color: #f4f4f4;
 }
 
-.container {
-    width: 90%;
-    margin: 0 auto;
-}
-
 header {
     background-color: #333;
     color: white;
     padding: 10px 0;
-}
-
-header h1 {
     text-align: center;
 }
 
@@ -34,8 +26,8 @@ nav a:hover {
 /* Sekcja produktów */
 .products {
     display: flex;
-    flex-wrap: wrap; /* Dzięki temu produkty mogą przechodzić do następnych linii */
-    justify-content: space-between;
+    flex-wrap: wrap; /* Produkty będą przechodzić do nowego wiersza */
+    justify-content: space-between; /* Równomierne rozmieszczenie produktów */
     margin: 20px 0;
 }
 
@@ -45,7 +37,7 @@ nav a:hover {
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Odstęp między produktami */
 }
 
 .product img {
@@ -57,8 +49,10 @@ nav a:hover {
     margin: 10px 0;
 }
 
-.product p {
-    color: #555;
+.product .price {
+    font-size: 1.2em;
+    color: #2196F3; /* Kolor ceny */
+    margin: 10px 0;
 }
 
 .product a {

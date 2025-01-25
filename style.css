@@ -25,19 +25,17 @@ nav a:hover {
 
 /* Sekcja produktów */
 .products {
-    display: flex;
-    flex-wrap: wrap; /* Produkty będą przechodziły do nowego wiersza */
-    justify-content: space-between; /* Równomierne rozmieszczenie produktów */
-    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolumny, każda o równej szerokości */
+    gap: 20px; /* Odstęp między produktami */
+    margin: 20px;
 }
 
 .product {
-    width: 32%; /* Produkty zajmują 32% szerokości kontenera, 3 w jednym rzędzie */
     background-color: white;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .product img {

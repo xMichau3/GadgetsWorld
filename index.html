@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GadgetsWorld</title>
+    <title>GadgetsWorld - Sklep z elektroniką</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome on GadgetsWorld!</h1>
+        <div class="container">
+            <h1 id="store-name">GadgetsWorld</h1>
+            <nav>
+                <a href="#produkt1" id="nav-product1">Produkt 1</a>
+                <a href="#produkt2" id="nav-product2">Produkt 2</a>
+                <a href="#produkt3" id="nav-product3">Produkt 3</a>
+            </nav>
+        </div>
     </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 id="hero-title">Witaj w GadgetsWorld!</h2>
+            <p id="hero-desc">Oferujemy szeroką gamę elektroniki w najlepszych cenach. Sprawdź nasze propozycje!</p>
+        </div>
+    </section>
+
+    <div class="container products">
+        <section id="produkt1" class="product">
+            <img src="https://via.placeholder.com/300" alt="Produkt 1">
+            <h3 id="product1-title">Smartwatch</h3>
+            <p id="product1-desc">Opis produktu: Nowoczesny smartwatch z wieloma funkcjami!</p>
+            <a href="link-do-produktu" class="buy-button" id="buy-btn1">Kup teraz</a>
+        </section>
+
+        <section id="produkt2" class="product">
+            <img src="https://via.placeholder.com/300" alt="Produkt 2">
+            <h3 id="product2-title">Słuchawki Bluetooth</h3>
+            <p id="product2-desc">Opis produktu: Wygodne słuchawki Bluetooth z dźwiękiem najwyższej jakości.</p>
+            <a href="link-do-produktu" class="buy-button" id="buy-btn2">Kup teraz</a>
+        </section>
+
+        <section id="produkt3" class="product">
+            <img src="https://via.placeholder.com/300" alt="Produkt 3">
+            <h3 id="product3-title">Powerbank</h3>
+            <p id="product3-desc">Opis produktu: Mocny powerbank, który naładuje Twoje urządzenia w podróży!</p>
+            <a href="link-do-produktu" class="buy-button" id="buy-btn3">Kup teraz</a>
+        </section>
+    </div>
+
     <footer>
-        <p>&copy; 2025 GadgetsWorld</p>
+        <div class="container">
+            <p id="footer-text">&copy; 2025 GadgetsWorld. Wszystkie prawa zastrzeżone.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

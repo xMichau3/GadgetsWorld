@@ -41,10 +41,22 @@ nav a:hover {
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 30%; /* Szerokość produktu na komputerze */
     box-sizing: border-box;
 }
 
+/* Ustawienie dla szerokich ekranów (komputery) */
+.product {
+    width: 30%; /* 3 produkty w jednym rzędzie na komputerze */
+}
+
+/* Media Query dla małych ekranów (telefony) */
+@media (max-width: 767px) {
+    .product {
+        width: 48%; /* 2 produkty w jednym rzędzie na telefonach */
+    }
+}
+
+/* Stylowanie dla obrazków */
 .product img {
     width: 100%;
     height: auto;
@@ -74,18 +86,4 @@ nav a:hover {
     padding: 20px;
     background-color: #fff;
     text-align: center;
-}
-
-/* Media Query dla większych ekranów (komputery stacjonarne) */
-@media (min-width: 768px) {
-    .product {
-        width: 30%; /* 3 produkty w jednym rzędzie na komputerze */
-    }
-}
-
-/* Media Query dla małych ekranów (telefony) */
-@media (max-width: 767px) {
-    .product {
-        width: 48%; /* 2 produkty w jednym rzędzie na telefonach */
-    }
 }

@@ -29,6 +29,10 @@ nav a:hover {
     grid-template-columns: repeat(3, 1fr); /* 3 kolumny o równej szerokości */
     gap: 20px; /* Odstęp między produktami */
     margin: 20px;
+    width: 100%; /* Ustawia szerokość kontenera na 100% */
+    max-width: 1200px; /* Maksymalna szerokość kontenera, żeby nie rozciągał się na całą szerokość */
+    margin-left: auto; 
+    margin-right: auto; /* Wyśrodkowanie kontenera */
 }
 
 /* Styl dla pojedynczego produktu */

@@ -56,7 +56,7 @@ nav a:hover {
 
 .product .price {
     font-size: 1.2em;
-    color: #2196F3;
+    color: #2196F3; /* Kolor ceny */
     margin: 10px 0;
 }
 
@@ -82,7 +82,9 @@ nav a:hover {
     width: 30%; /* 3 produkty w jednym rzędzie na każdym urządzeniu */
 }
 
-/* Usunięcie zmian dla telefonów */
+/* Media Query dla mniejszych ekranów (telefony) */
 @media (max-width: 767px) {
-    /* Usunięcie media query dla telefonów, żeby zawsze były 3 kolumny */
+    .product {
+        width: 48%; /* 2 produkty w jednym rzędzie na telefonach */
+    }
 }

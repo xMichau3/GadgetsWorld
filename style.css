@@ -1,21 +1,94 @@
+/* Ustawienia ogólne */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 header {
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 20px;
+    padding: 10px 0;
 }
-footer {
+
+header h1 {
     text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sekcja produktów */
+.products {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.product {
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    color: #555;
+}
+
+.product a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product a:hover {
+    text-decoration: underline;
+}
+
+/* Sekcja hero */
+.hero {
+    background-color: #2196F3;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Stopka */
+footer {
     background-color: #333;
     color: white;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    text-align: center;
+    padding: 20px 0;
 }

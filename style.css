@@ -74,3 +74,17 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Media Query dla większych ekranów (komputery stacjonarne) */
+@media (min-width: 768px) {
+    .products {
+        grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
+    }
+}
+
+/* Media Query dla małych ekranów (telefony) */
+@media (max-width: 767px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolumny na mniejszych ekranach */
+    }
+}

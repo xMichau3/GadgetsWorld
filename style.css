@@ -33,17 +33,18 @@ nav a:hover {
 
 /* Sekcja produktów */
 .products {
-    display: flex;
-    justify-content: space-between;
+    display: flex; /* Użycie Flexbox, aby elementy były obok siebie */
+    justify-content: space-between; /* Równomierne rozmieszczenie przestrzeni między produktami */
     margin: 20px 0;
 }
 
 .product {
-    width: 30%;
+    width: 30%; /* Produkty zajmują 30% szerokości kontenera */
     background-color: white;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-bottom: 20px; /* Odstęp między wierszami */
 }
 
 .product img {

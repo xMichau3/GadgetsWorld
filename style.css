@@ -92,6 +92,6 @@ nav a:hover {
         gap: 15px; /* Mniejsza przerwa na telefonach */
     }
     .product {
-        width: 48%; /* 2 produkty w jednym rzędzie na telefonach */
+        width: 30%; /* 2 produkty w jednym rzędzie na telefonach */
     }
 }

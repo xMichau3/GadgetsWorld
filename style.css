@@ -75,6 +75,17 @@ nav a:hover {
     background-color: #333; /* Tło kontaktu takie samo jak GadgetsWorld */
     color: white; /* Białe napisy */
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#kontakt a {
+    color: white;
+    text-decoration: none;
+}
+
+#kontakt a:hover {
+    text-decoration: underline;
 }
 
 /* Zawsze 3 kolumny na każdym urządzeniu */

@@ -41,7 +41,7 @@ nav a:hover {
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 30%; /* Szerokość produktu na ekranie */
+    width: 30%; /* Szerokość produktu na komputerze */
     box-sizing: border-box;
 }
 
@@ -79,7 +79,7 @@ nav a:hover {
 /* Media Query dla większych ekranów (komputery stacjonarne) */
 @media (min-width: 768px) {
     .product {
-        width: 30%; /* 3 produkty w jednym rzędzie */
+        width: 30%; /* 3 produkty w jednym rzędzie na komputerze */
     }
 }
 

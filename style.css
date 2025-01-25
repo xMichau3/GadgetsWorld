@@ -92,6 +92,13 @@ nav a:hover {
         gap: 15px; /* Mniejsza przerwa na telefonach */
     }
     .product {
-        width: 30%; /* 2 produkty w jednym rzędzie na telefonach */
+        width: 48%; /* 2 produkty w jednym rzędzie na telefonach w pionie */
+    }
+}
+
+/* Dodatkowa Media Query dla poziomej orientacji telefonu */
+@media (orientation: landscape) {
+    .product {
+        width: 30%; /* 3 produkty w jednym rzędzie na telefonach w poziomie */
     }
 }

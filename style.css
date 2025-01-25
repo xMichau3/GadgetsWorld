@@ -67,12 +67,11 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Stopka */
-footer {
-    background-color: #333;
-    color: white;
+/* Sekcja kontaktowa */
+#kontakt {
+    padding: 20px;
+    background-color: #fff;
     text-align: center;
-    padding: 20px 0;
 }
 
 /* Media Query dla większych ekranów (komputery stacjonarne) */

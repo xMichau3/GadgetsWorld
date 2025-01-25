@@ -90,6 +90,6 @@ nav a:hover {
         flex-wrap: wrap; /* Zezwala na zawijanie elementów */
     }
     .product {
-        width: 48%; /* 2 produkty w jednym rzędzie na telefonach */
+        width: 30%; /* 2 produkty w jednym rzędzie na telefonach */
     }
 }
